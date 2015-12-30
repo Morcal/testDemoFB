@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <cn.feibo.jodedemo.widget.CircleImageView
+            android:id="@+id/vactor_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/default_avatar_small" />
+
+        <ImageView
+            android:id="@+id/vactor_big"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/vactor_image"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/icon_user_v_big" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VImageView">
+        <attr name="vSize" format="dimension" />
+        <attr name="vImage" format="reference" />
+        <attr name="showV" format="boolean" />
+    </declare-styleable>
+
+</resources>
